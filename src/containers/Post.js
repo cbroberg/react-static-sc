@@ -15,3 +15,13 @@ export default withRouteData(({ post }) => (
 	</div>
 ))
 
+/* 
+NOTE TO TESTER:
+
+This example works equally fine with or without the html-to-react parser.
+But it only works on localhost. When served with either yarn serve or
+pushed to surge.sh (http://sophisticated-push.surge.sh/) the same error occurs. 
+When the page is manually reloaded it arrives fine, but the react routing probably 
+needs a fix. What to do?
+
+*/
